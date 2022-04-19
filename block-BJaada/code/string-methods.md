@@ -32,6 +32,17 @@ Example:
    - `charAt` accepts a index (number data type) and return the character on that index in the string.
 
 2. `toUpperCase`
+  - Parameter: (index) defaults to 0 - (number data type)
+   - Return: converted to upper casethe string (string data type)
+   - Example:
+   ```js
+     let name = 'Arya Stark';
+     name.toUpper(); //"ARYA STARK"
+     let sentance = 'A quick brown fox jumped over a lazy dog';
+     sentance(4); // "i"
+     let houseName = 'Starks';
+     houseName.charAt(0); // "S"
+     ```
 3. `toLowerCase`
 4. `trim`
 5. `trimEnd`
