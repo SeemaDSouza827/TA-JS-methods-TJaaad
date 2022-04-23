@@ -34,23 +34,43 @@ Example:
    - No it does not mutate the original array
 
 2. `join`
+
 3. `flat`
+
 4. `push`
+
 5. `indexOf`
+
 6. `lastIndexOf`
+
 7. `includes`
+
 8. `reverse`
+
 9. `every`
+
 10. `shift`
+
 11. `splice`
+
 12. `find`
+
 13. `unshift`
+
 14. `findIndex`
+
 15. `filter`
+
 16. `flat`
+
 17. `forEach`
+
 18. `map`
+
 19. `pop`
+
 20. `reduce`
+
 21. `slice`
+
 22. `some`
