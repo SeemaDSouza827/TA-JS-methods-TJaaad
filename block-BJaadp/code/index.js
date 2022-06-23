@@ -16,8 +16,22 @@ let persons = [
 // NOTE: Use reduce method whereever you can to solve this exercise:
 
 // Find the average grade
-
+let result = persons.reduce((acc,cv)=>acc+=cv.grade,0)/persons.length;
 // Find the average grade of male
+function findAvg (persons){
+  let count=0;
+  let maleAvg = persons.reduce((acc,cv)=>{
+    if(cv.sex==="M"){
+      count=+1;
+      acc=+cv.grade;
+      return acc;
+    }
+  },0)
+return maleAvg/count;
+};
+
+findAvg(persons);
+
 
 // Find the average grade of female
 
