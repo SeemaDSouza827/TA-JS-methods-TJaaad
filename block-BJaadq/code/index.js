@@ -1,7 +1,9 @@
 // NOTE: You can not use reduce methods to solve this exercise
 
 function countAllPeople() {
-  // your code goes here
+  got.houses.reduce((acc,v)=>{
+    return acc + v.people
+  })
 }
 
 function peopleByHouses() {
