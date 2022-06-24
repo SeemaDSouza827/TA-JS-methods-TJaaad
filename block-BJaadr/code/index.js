@@ -1,7 +1,7 @@
 // NOTE: You can only use the (reduce) array method to solve this exercise:
 
 function countAllPeople() {
-  // your code goes here
+  // your code goes here 
 }
 
 function peopleByHouses() {
